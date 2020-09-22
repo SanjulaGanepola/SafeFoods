@@ -1,0 +1,29 @@
+SafeFoods Deployment Document:
+
+1. Download the .zip file named "2XB3GR06FinalProject.zip".
+
+2. Right-click the project and select extract all.
+
+3. Open Eclipse and select "Open Projects from File System...".
+
+4. Click "Directory...", select the extracted file which should be called "2XB3GR06FinalProject", and click "Finish". The import source should look the following example: "C:\Users\HP\Desktop\2XB3GR06FinalProject\2XB3GR06FinalProject"
+
+5. If no errors in the project, skip to step 10.
+
+6. Right-click the project in eclipse, select "Build Path" -> "Configure Build Path..."
+
+7. Double-click the "JRE SYSTEM LIBRARY" and make sure the Execution Environment says "JavaSE-1.8 (jre 1.8.0_45)".
+
+8. Double-click the "algs4.jar" and select "algs4.jar" in the project.
+
+9. Double-click the "gson-2.8.6.jar" and select "gson-2.8.6.jar" in the project. Select "Finish" and "Apply and Close".
+
+10. Run the project by right-clicking "App.java" which can be found in the "gui" package in the "src" folder. Select "Run as" -> "Java Application".
+
+11. GUI should now appear and you interact with it
+	-  options: search for a restaurant or plan a trip
+		- search for a restaurant requires only a restaurant name
+		- planning a trip requires 2 address; the start address and end address
+			- address is saved when clicking the save address button, or when pressing the plan trip button
+			- address is cleared when pressing the clear address button
+		
